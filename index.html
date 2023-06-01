@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Flexgrid Example with Logo and Title</title>
+  <title>FASEP Kaduna</title>
   <style>
-        body {
-      background-color: #f2f2f2; /* Change the background color of the entire page */
-      font-family: Roboto, sans-serif; /* Change the font family for the entire page */
+    body {
+      background-color: #f2f2f2;
+      /* Change the background color of the entire page */
+      font-family: Roboto, sans-serif;
+      /* Change the font family for the entire page */
     }
+
     .flex-container {
       display: flex;
       flex-wrap: wrap;
-      height: 100vh; /* Adjust the height as per your requirements */
+      height: 100vh;
+      /* Adjust the height as per your requirements */
     }
-    
+
     .flex-item {
-      flex: 1 0 33.33%; /* Adjust the width as per your requirements */
+      flex: 1 0 33.33%;
+      /* Adjust the width as per your requirements */
       box-sizing: border-box;
       align-items: top;
       justify-content: left;
       padding: 1%;
     }
-    
+
     .logo {
       display: flex;
       align-items: center;
       justify-content: flex-start;
       padding: 10px;
       height: 10%;
-      
+
     }
-    
+
     .logo img {
-      height: 40px; /* Adjust the logo height as per your requirements */
+      height: 40px;
+      /* Adjust the logo height as per your requirements */
     }
-    
+
     .title {
       display: flex;
       align-items: center;
@@ -42,62 +49,80 @@
       text-align: center;
       height: 10%;
     }
-    
+
     .title .line1 {
-      font-size: 24px; /* Adjust the font size of the upper line */
-      font-weight: bold; /* Optionally, make the upper line bold */
-      margin-bottom: 5px; /* Adjust the spacing between the lines */
+      font-size: 24px;
+      /* Adjust the font size of the upper line */
+      font-weight: bold;
+      /* Optionally, make the upper line bold */
+      margin-bottom: 5px;
+      /* Adjust the spacing between the lines */
     }
-    
+
     .title .line2 {
-      font-size: 18px; /* Adjust the font size of the lower line */
+      font-size: 18px;
+      /* Adjust the font size of the lower line */
     }
-    
+
     .merged-cell {
       flex: 1 0 100%;
-      height: 70%; /* Adjust the width as per your requirements */
+      height: 70%;
+      /* Adjust the width as per your requirements */
     }
-    
+
     .content-heading {
-      font-size: 20px; /* Adjust the font size of the subheading */
-      font-weight: bold; /* Optionally, make the subheading bold */
-      margin-bottom: 5px; /* Adjust the spacing below the subheading */
+      font-size: 20px;
+      /* Adjust the font size of the subheading */
+      font-weight: bold;
+      /* Optionally, make the subheading bold */
+      margin-bottom: 5px;
+      /* Adjust the spacing below the subheading */
     }
-    
+
     .content-body {
-      font-size: 16px; /* Adjust the font size of the body text */
+      font-size: 16px;
+      /* Adjust the font size of the body text */
       text-align: justify;
     }
   </style>
 </head>
+
 <body>
   <div class="flex-container">
     <div class="flex-item logo">
-      <img src="src/Mitsio Motu - Colour.png" alt="Logo">
+      <img src="src/Mitsio Motu - Colour.png" alt="Mitsio Motu">
     </div>
     <div class="flex-item title">
       <span class="line1">FASEP Kaduna</span>
       <span class="line2">Deployment Plan</span>
     </div>
     <div class="flex-item logo">
-      <img src="/src/logo-sunna-design 1.png" alt="Logo">
+
     </div>
     <div class="flex-item merged-cell" colspan="3">
-        <iframe width="100%" height=100% frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Deployment-in-Kaduna-V83XyRMcTvm1UzAPVBr69AC?lat=10.482034&lon=7.473741&zoom=12.51"></iframe>    </div>
-    <div class="flex-item">
-      <div class="content-heading">About the deployment plan</div>
-      <div class="content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas est at feugiat aliquam. Morbi neque justo, ultrices ac egestas sed, tincidunt ac odio. Integer finibus nisi ut ligula lacinia facilisis. Praesent augue nunc, bibendum eu posuere vel, congue vel lorem. Fusce eu tortor dignissim, placerat risus sed, volutpat elit. Integer vel lectus turpis. Proin vitae justo in ipsum sodales feugiat ut at tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin malesuada mauris eu diam vestibulum, in blandit sapien aliquam. Phasellus eget orci id tellus pretium eleifend sit amet in erat. Maecenas condimentum sapien vitae eros mattis, eget venenatis sapien porttitor. Pellentesque pretium suscipit mollis. Pellentesque dapibus consequat metus, sit amet finibus justo feugiat ut. Integer suscipit congue ligula vitae finibus.
-
-        .</div>
+      <iframe width="100%" height=100% frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Deployment-in-Kaduna-V83XyRMcTvm1UzAPVBr69AC?lat=10.482034&lon=7.473741&zoom=12.51"></iframe>
     </div>
     <div class="flex-item">
-      <div class="content-heading">Data visualization</div>
-      <div class="content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas est at feugiat aliquam. Morbi neque justo, ultrices ac egestas sed, tincidunt ac odio. Integer finibus nisi ut ligula lacinia facilisis. Praesent augue nunc, bibendum eu posuere vel, congue vel lorem. Fusce eu tortor dignissim, placerat risus sed, volutpat elit. Integer vel lectus turpis. Proin vitae justo in ipsum sodales feugiat ut at tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin malesuada mauris eu diam vestibulum, in blandit sapien aliquam. Phasellus eget orci id tellus pretium eleifend sit amet in erat. Maecenas condimentum sapien vitae eros mattis, eget venenatis sapien porttitor. Pellentesque pretium suscipit mollis. Pellentesque dapibus consequat metus, sit amet finibus justo feugiat ut. Integer suscipit congue ligula vitae finibus.
-
-        .</div>
+      <div class="content-heading">About the project</div>
+      <div class="content-body">
+        <p>As part of the FASEP project in Kaduna City, a smart and inclusive street lighting project, Mitsio Motu conducted a study to determine the locations for the deployment of 100 Sunna Design solar streetlights (25 ISSL+, 50 Maxi road, 25 Maxi 4).</p>
+        <p>Throughout the project, several deployment plans and methodologies have been set up to identify, categorize the most impactful areas & streets for the deployment of streetlights.</p>
+        <p>Mitsio Motu team mapped every infrastructure, every streetlight and electricity line in Barnawa Area. As a result, 34 types of assets were identified and everyone of them was mapped and accessible on an interactive map.</p>
+        <p>Based on this data driven study, a deployment plan has been finalized and been validated by KAPSCO.</p>
+      </div>
+    </div>
+    <div class="flex-item">
+      <div class="content-heading">Innovation</div>
+      <div class="content-body">
+        <p>This project brought an opportunity to test and create models for large scale vision of deployment based on accurate data collected on the field.</p>
+        <p>After the data collection of Barnawa Area and after the deployment plan, Mitsio Motu conducted a data collection campaign and mapped every streetlight of Kaduna city. </p>
+        <p>Based on this mapping , Mitsio Motu created an analysis to quantify the needs of streetlights on the whole city. This plan allows to identify all areas who do not have access to public lighting and therefore plan and budget deployment plans to grant equal access to streetlight at the city level.</p>
+        <p>This data platform displays all of these collected pieces of information to offer access to the mapping of the city for decision makers of the Kaduna State.</p>
+      </div>
     </div>
     <div class="flex-item">
     </div>
   </div>
 </body>
+
 </html>
